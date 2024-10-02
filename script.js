@@ -202,7 +202,7 @@ function displayMessages() {
         if (index < messages.length) {
             addMessage(messages[index]);
             index++;
-            setTimeout(displayNextMessage, 4000); // 1초 간격으로 메시지 표시
+            setTimeout(displayNextMessage, 3000); // 1초 간격으로 메시지 표시
         }
     }
     displayNextMessage();
